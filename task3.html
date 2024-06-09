@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
 </head>
 <body>
-    
+    <select id="mySelect" onchange="font_Family()">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="fantasy">fantasy</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+
+
+      <select id="mySelect2" onchange="font_Size()">
+        <option value="5px">5px</option>
+        <option value="10px">10px</option>
+        <option value="15px">15px</option>
+        <option value="20px">20px</option>
+        <option value="25px">25px</option>
+
+
+
+      </select>
+
+
+<input type="checkbox" id="Italic" value="Italic" onclick="Italic()">Italic</input>
+<input type="checkbox" id="Bold" value="Bold" onclick="Bold()">Bold</input>
+<input type="checkbox" id="Underline" value="Underline" onclick="Underline()">Underline</input>
+
+
+
+<p id="demo">
+    the quick brown fox over the lazy dog
+</p>
+<script src="task3.js"></script>
+
+
+
+
+
+
+
 </body>
 </html>
